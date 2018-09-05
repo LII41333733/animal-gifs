@@ -1,0 +1,54 @@
+html, body {
+  background-color: rgb(235, 235, 235);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+button, #add-animal {
+  background: #3497b7;
+  border: 1px solid black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.container {
+  margin: 0;
+}
+
+#gif-bucket {
+  width: 55%;
+  height: auto;
+  display: inline-block;
+}
+
+.form {
+  width: 35%;
+  height: auto;
+  float: right;
+}
+
+#buttons-view {
+  margin: 15px 0;
+}
+
+#buttons-view button {
+  margin: 0 10px 10px 0;
+}
+
+.animal {
+  margin: 0 10px 10px 0;
+}
+
+.gif {
+  width: auto;
+  height: 150px;
+}
+
+p, label {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+#add-animal, #animal-input {
+  margin-top: 5px;
+}
