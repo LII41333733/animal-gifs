@@ -20,7 +20,7 @@ function displayanimalInfo() {
 
     var animal = $(this).attr("data-name");
     var apiKey = "BFkXA7DPTHoMxtYJztfpl36Xk7hHKwbj";
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&api_key=" + apiKey;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&api_key=" + apiKey;
 
     $.ajax({
         url: queryURL,
